@@ -1,0 +1,83 @@
+
+
+:root{
+    --w : white;
+}
+
+.d1{
+   width: 55%;
+    border: 7px solid #000;
+    border-radius: 10px;
+}
+
+.df{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    background:rgb(81, 141, 219);
+}
+
+.df h3{
+    color: var(--w);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.d1 button{
+    background-color: transparent;
+    border:1px solid var(--w);
+    border-radius: 4px;
+    margin: 0px 15px;
+    font-size: 25px;
+    color: var(--w);
+}
+
+.d1 button:nth-child(1){
+    border: none;
+}
+
+.d1 button:nth-child(2){
+    font-weight: 800;
+}
+
+.w{
+    background-color: #000;
+    position: absolute;
+}
+
+
+.w button{
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px 20px;
+}
+
+.w button:hover{
+    background-color: orangered;
+}
+
+.dBlock{
+    display: block;
+}
+
+.dNone{
+    display: none;
+}
+
+@media(max-width:998px) {
+    .d1{
+        width: 80%;
+    }
+}
+
+@media(max-width:698px) {
+    .d1{
+        width: 100%;
+        margin: 0!important;
+    }
+}

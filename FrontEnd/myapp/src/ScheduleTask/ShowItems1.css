@@ -1,0 +1,24 @@
+.s1df1{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    grid-gap: 8%;
+}
+
+.gb{
+    border: 2px solid rgb(82, 82, 231);
+    border-radius: 5px;
+    padding: 18px 10px;
+}
+
+@media (max-width:850px) {
+    .s1df1{
+        grid-template-columns: 25% 55% 20%;
+    }
+}
+
+@media (max-width:550px) {
+    .s1df1{
+        grid-template-columns: 30% 50% 20%;
+    }
+}

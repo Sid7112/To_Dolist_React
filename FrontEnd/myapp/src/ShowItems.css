@@ -1,0 +1,35 @@
+
+.df1{
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.7), -1px -1px 3px 1px rgba(0,0,0,0.7);
+    background-color: rgb(242,242,242);
+}
+
+.s1 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 0px 20px;
+    position: absolute;
+    right: -5%;
+    text-align: center;
+    color: gray;
+    font-weight: 800;
+}
+
+.s1 option{
+    color:gold;
+    background-color: black;
+    font-size: 18px;
+}
+
+
